@@ -33,13 +33,21 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/LeilaDaneshvar/java-core-master.git](https://github.com/LeilaDaneshvar/java-core-master.git)
+   git clone https://github.com/LeilaDaneshvar/java-core-master.git
+
+2. Navigate to the root directory:
+   ```bash
+   cd java-core-master
+
+3. Build all modules and run tests:
+   ```bash
+   mvn clean install
 
 ---
 
 ## Java Core Master: Learning Roadmap
 
-### Module 01: Language Fundamentals (The "Slow Burn")
+### Module 01: Language Fundamentals 
 *Focus on JVM internals and memory management.*
 - [ ] **JVM Architecture:** Understanding Stack vs. Heap memory allocation.
 - [ ] **Garbage Collection:** Basics of G1 and ZGC algorithms.
