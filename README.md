@@ -13,6 +13,9 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 | **02-oop-design** | Object Orientation | Polymorphism, Interfaces (Default/Static), Solid Principles. |
 | **03-modern-java** | Java 8 to 11 | Streams API, Lambdas, Optional, Var, HTTP Client. |
 | **04-java-17-plus** | Modernization | **Records**, **Sealed Classes**, Pattern Matching, Text Blocks. |
+| **05-java-21-features** | LTS Evolution | Virtual Threads (Project Loom), Sequenced Collections, Record Patterns. |
+| **06-jakarta-ee-integration** | Enterprise Web | Moving from Core Java to Web Services/APIs. |
+| **07-performance-tuning** | Optimization | JVM arguments, Garbage Collection (G1, ZGC) experiments, JMH Benchmarking. |
 
 ---
 
@@ -79,8 +82,8 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 
 ### Module 04: Java 17+ Modernization (The "Fast Track")
 *The cutting-edge features for clean DTOs and domain logic.*
-- [ ] **Records:** Immutable data carriers to replace boilerplate POJOs.
-- [ ] **Sealed Classes:** Restricting class hierarchies for better domain modeling.
+- [X] **Records:** Immutable data carriers to replace boilerplate POJOs.
+- [X] **Sealed Classes:** Restricting class hierarchies for better domain modeling.
 - [ ] **Switch Expressions:** Using `yield` and the new arrow `->` syntax.
 - [ ] **Pattern Matching:** Simplified `instanceof` checks and Record patterns.
 - [ ] **Text Blocks:** Clean handling of multi-line strings (JSON, SQL).
