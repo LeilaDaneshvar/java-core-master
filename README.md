@@ -84,7 +84,7 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 *The cutting-edge features for clean DTOs and domain logic.*
 - [X] **Records:** Immutable data carriers to replace boilerplate POJOs.
 - [X] **Sealed Classes:** Restricting class hierarchies for better domain modeling.
-- [ ] **Switch Expressions:** Using `yield` and the new arrow `->` syntax.
+- [X] **Switch Expressions:** Using `yield` and the new arrow `->` syntax.
 - [ ] **Pattern Matching:** Simplified `instanceof` checks and Record patterns.
 - [ ] **Text Blocks:** Clean handling of multi-line strings (JSON, SQL).
 
