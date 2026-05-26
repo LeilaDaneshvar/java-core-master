@@ -86,7 +86,7 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 - [X] **Sealed Classes:** Restricting class hierarchies for better domain modeling.
 - [X] **Switch Expressions:** Using `yield` and the new arrow `->` syntax.
 - [X] **Pattern Matching:** Simplified `instanceof` checks and Record patterns.
-- [ ] **Text Blocks:** Clean handling of multi-line strings (JSON, SQL).
+- [X] **Text Blocks:** Clean handling of multi-line strings (JSON, SQL).
 
 ---
 

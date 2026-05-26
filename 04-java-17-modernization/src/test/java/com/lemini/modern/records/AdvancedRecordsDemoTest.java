@@ -3,9 +3,6 @@ package com.lemini.modern.records;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.lemini.modern.records.AddressDTO;
-import com.lemini.modern.records.UserDTO;
-import com.lemini.modern.records.UserProfileResponse;
 
 public class AdvancedRecordsDemoTest {
 
