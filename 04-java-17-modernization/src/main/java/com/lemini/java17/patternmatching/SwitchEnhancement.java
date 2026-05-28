@@ -1,4 +1,4 @@
-package com.lemini.modern.patternmatching;
+package com.lemini.java17.patternmatching;
 
 /**
  * 1. Modern switch expression with Arrow Syntax

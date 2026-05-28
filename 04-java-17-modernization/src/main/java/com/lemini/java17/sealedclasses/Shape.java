@@ -1,4 +1,4 @@
-package com.lemini.modern.sealedclasses;
+package com.lemini.java17.sealedclasses;
 
 /**
  * Sealed Classes allow you to lock down your architecture by explicitly stating

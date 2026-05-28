@@ -1,4 +1,4 @@
-package com.lemini.modern.sealedclasses;
+package com.lemini.java17.sealedclasses;
 
 /**
  * A circle is a fundamental shape. It shouldn't be extended. We lock it down with final.

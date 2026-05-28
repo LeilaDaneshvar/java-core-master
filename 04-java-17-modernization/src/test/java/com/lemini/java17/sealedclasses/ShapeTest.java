@@ -1,6 +1,7 @@
-package com.lemini.modern.sealedclasses;
+package com.lemini.java17.sealedclasses;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 

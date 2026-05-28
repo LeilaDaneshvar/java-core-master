@@ -1,4 +1,4 @@
-package com.lemini.modern.textblocks;
+package com.lemini.java17.textblocks;
 
 public class TextBlocksDemo {
 

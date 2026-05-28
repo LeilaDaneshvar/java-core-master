@@ -1,7 +1,8 @@
 
-package com.lemini.modern.textblocks;
+package com.lemini.java17.textblocks;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TextBlocksDemoTest {

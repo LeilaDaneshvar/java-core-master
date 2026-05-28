@@ -1,4 +1,4 @@
-package com.lemini.modern.sealedclasses;
+package com.lemini.java17.sealedclasses;
 
 /**
  * A rectangle is a shape, but it can also be a parent. 

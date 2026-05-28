@@ -1,6 +1,7 @@
-package com.lemini.modern.patternmatching;
+package com.lemini.java17.patternmatching;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 

@@ -1,6 +1,7 @@
-package com.lemini.modern.records;
+package com.lemini.java17.records;
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
