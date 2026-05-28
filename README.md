@@ -9,13 +9,11 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 
 | Module | Focus Area | Key Concepts |
 | :--- | :--- | :--- |
+| **00-design-patterns** | Design pattterns | Creational, Structural and Behavioral. |
 | **01-fundamentals** | Language Basics | JVM Architecture, Memory Management, Data Types. |
 | **02-oop-design** | Object Orientation | Polymorphism, Interfaces (Default/Static), Solid Principles. |
 | **03-modern-java** | Java 8 to 11 | Streams API, Lambdas, Optional, Var, HTTP Client. |
 | **04-java-17-plus** | Modernization | **Records**, **Sealed Classes**, Pattern Matching, Text Blocks. |
-| **05-java-21-features** | LTS Evolution | Virtual Threads (Project Loom), Sequenced Collections, Record Patterns. |
-| **06-jakarta-ee-integration** | Enterprise Web | Moving from Core Java to Web Services/APIs. |
-| **07-performance-tuning** | Optimization | JVM arguments, Garbage Collection (G1, ZGC) experiments, JMH Benchmarking. |
 
 ---
 
@@ -50,6 +48,12 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 
 ## Java Core Master: Learning Roadmap
 
+### Module 00: Design Patterns
+*Gang of Four design pattern*
+- [ ] **Creational:** Factory, Singleton, Builder, Prototype, Abstract Factory.
+- [ ] **Structural:** Adapter, Decorator, Facade, Proxy, Bridge, Composite, Flyweight
+- [ ] **Behavioral:** Strategy, Command, Observer, Template Method, State, Iterator, chain of responsibility, interpreter, Mediator, Memento, Visitor.
+
 ### Module 01: Language Fundamentals 
 *Focus on JVM internals and memory management.*
 - [ ] **JVM Architecture:** Understanding Stack vs. Heap memory allocation.
@@ -77,6 +81,7 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 - [ ] **Optional API:** Practical patterns to avoid `NullPointerException`.
 - [ ] **Var Keyword:** Local Variable Type Inference (Java 11).
 - [ ] **New HTTP Client:** Building asynchronous and reactive requests.
+- [ ] **Patterns:** Modernized GoF Patterns (Strategy, etc.)
 
 ---
 
