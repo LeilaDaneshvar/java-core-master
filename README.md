@@ -1,115 +1,80 @@
-#  Java Core Master
+# Java Core Master
 
-A comprehensive, multi-module repository documenting the evolution of Java. This project serves as a technical reference for Core Java concepts, from legacy fundamentals to modern Java 17 features.
-
----
-
-##  Project Architecture
-This repository uses a **Maven Multi-Module** structure to isolate different eras and features of the Java language.
-
-| Module | Focus Area | Key Concepts |
-| :--- | :--- | :--- |
-| **00-design-patterns** | Design pattterns | Creational, Structural and Behavioral. |
-| **01-fundamentals** | Language Basics | JVM Architecture, Memory Management, Data Types. |
-| **02-oop-design** | Object Orientation | Polymorphism, Interfaces (Default/Static), Solid Principles. |
-| **03-modern-java** | Java 8 to 11 | Streams API, Lambdas, Optional, Var, HTTP Client. |
-| **04-java-17-plus** | Modernization | **Records**, **Sealed Classes**, Pattern Matching, Text Blocks. |
-| **05-java-21-features** | LTS Evolution | Virtual Threads (Project Loom), Sequenced Collections, Record Patterns. |
----
-
-##  Tech Stack
-* **Language:** Java 17 (LTS)
-* **Build Tool:** Maven 3.8+
-* **Testing:** JUnit 5 (Jupiter)
-* **CI/CD:** GitHub Actions
+> A structured, long-term Java learning and mastery repository covering Java fundamentals, modern Java (8 → 25+), design patterns, concurrency, JVM internals, and interview preparation.
 
 ---
 
-##  Getting Started
+## Overview
 
-### Prerequisites
-* **JDK 17** installed (`java -version` should report 17).
-* **Maven** installed (`mvn -version`).
+This repository is designed as a **complete Java knowledge system**, not just code samples.
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/LeilaDaneshvar/java-core-master.git
+It is organized to help you:
 
-2. Navigate to the root directory:
-   ```bash
-   cd java-core-master
-
-3. Build all modules and run tests:
-   ```bash
-   mvn clean install
+- Build strong **Java fundamentals**
+- Master **modern Java features (Java 8 → latest)**
+- Understand **design patterns (classic + modern)**
+- Learn **real-world concurrency models**
+- Deep dive into **JVM internals**
+- Prepare for **technical interviews**
 
 ---
 
-## Java Core Master: Learning Roadmap
+## Navigation
 
-### Module 00: Design Patterns
-*Gang of Four design pattern*
-- [ ] **Creational:** Factory, Singleton, Builder, Prototype, Abstract Factory.
-- [ ] **Structural:** Adapter, Decorator, Facade, Proxy, Bridge, Composite, Flyweight
-- [ ] **Behavioral:** Strategy, Command, Observer, Template Method, State, Iterator, chain of responsibility, interpreter, Mediator, Memento, Visitor.
+### Core Java
 
-### Module 01: Language Fundamentals 
-*Focus on JVM internals and memory management.*
-- [ ] **JVM Architecture:** Understanding Stack vs. Heap memory allocation.
-- [ ] **Garbage Collection:** Basics of G1 and ZGC algorithms.
-- [ ] **Primitives vs. Wrappers:** Memory implications and Auto-boxing.
-- [ ] **String Pool:** String interning and why Strings are immutable.
-- [ ] **Exception Handling:** Hierarchy (Checked vs. Unchecked) and `try-with-resources`.
+| Module | Description |
+|------|-------------|
+| Java Fundamentals | OOP, syntax, exceptions, generics, annotations |
+| Java Collections | List, Set, Map, Queue + internals & performance |
 
 ---
 
-### Module 02: OOP & Design Patterns
-*Building extensible and maintainable microservice architectures.*
-- [ ] **Interfaces:** Default and Static methods (Java 8+ additions).
-- [ ] **Abstraction:** Abstract Classes vs. Interfaces in modern design.
-- [ ] **Solid Principles:** Single Responsibility, Open/Closed, etc., in Java.
-- [ ] **Generics:** Type erasure, bounded wildcards (`<? extends T>`).
-- [ ] **Enums:** Advanced usage with fields and methods.
+### Advanced Java
+
+| Module | Description |
+|------|-------------|
+| Java Concurrency | Threads, executors, futures, virtual threads |
+| Java JVM Internals | Memory model, GC, class loading, bytecode |
 
 ---
 
-### Module 03: Modern Java (8, 11)
-*The daily drivers for Microservice development.*
-- [ ] **Lambda Expressions:** Functional interfaces and method references.
-- [ ] **Streams API:** Intermediate (`filter`, `map`) and Terminal (`collect`, `forEach`) operations.
-- [ ] **Optional API:** Practical patterns to avoid `NullPointerException`.
-- [ ] **Var Keyword:** Local Variable Type Inference (Java 11).
-- [ ] **New HTTP Client:** Building asynchronous and reactive requests.
-- [ ] **Patterns:** Modernized GoF Patterns (Strategy, etc.)
+### Modern Java (8 → 25+)
+
+| Module | Description |
+|------|-------------|
+| Java Modern Features | Streams, lambdas, records, pattern matching, etc. |
+| Functional Programming | Streams, functional interfaces, Optional |
+| Language Enhancements | Records, sealed classes, switch expressions |
+| Platform Features | Modules, HTTP client, FFM API |
 
 ---
 
-### Module 04: Java 17+ Modernization (The "Fast Track")
-*The cutting-edge features for clean DTOs and domain logic.*
-- [X] **Records:** Immutable data carriers to replace boilerplate POJOs.
-- [X] **Sealed Classes:** Restricting class hierarchies for better domain modeling.
-- [X] **Switch Expressions:** Using `yield` and the new arrow `->` syntax.
-- [X] **Pattern Matching:** Simplified `instanceof` checks and Record patterns.
-- [X] **Text Blocks:** Clean handling of multi-line strings (JSON, SQL).
+### Software Design
+
+| Module | Description |
+|------|-------------|
+| Design Patterns | GoF + modern patterns (functional, cloud, concurrent, architectural) |
 
 ---
 
-### Cross-Cutting: Testing & Build Tools
-*Professional environment setup.*
-- [ ] **JUnit 5:** Lifecycle hooks (`@BeforeEach`, `@AfterAll`) and Assertions.
-- [ ] **Parameterized Tests:** Using `@ValueSource` and `@CsvSource`.
-- [ ] **Maven Multi-Module:** Managing parent-child `pom.xml` relationships.
-- [ ] **GitHub Actions:** Automating your build and test suite.
+### Practice & Interviews
 
+| Module | Description |
+|------|-------------|
+| Coding Exercises | Problem solving with real Java APIs |
+| Interview Preparation | Java + system design + coding rounds |
 
 ---
 
-## Contact & Socials
+## Learning Path (Recommended Order)
 
-I'm always open to discussing Java architecture, microservices, or potential collaborations!
-
-* **Name:** Leila Daneshvar
-* **LinkedIn:** [linkedin.com/in/leila-daneshvar](https://linkedin.com/in/leila-daneshvar-tarigh)
-* **GitHub:** [@LeilaDaneshvar](https://github.com/LeilaDaneshvar)
-
+```text
+1. Java Fundamentals
+2. Java Collections
+3. Java Concurrency
+4. Java Modern Features
+5. Java Design Patterns
+6. Java JVM Internals
+7. Coding Exercises
+8. Interview Preparation
