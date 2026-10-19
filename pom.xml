@@ -14,11 +14,15 @@
         <junit.version>5.10.0</junit.version>
     </properties>
     <modules>
-        <module>00-design-patterns</module>
-        <module>01-language-fundamentals</module>
-        <module>02-oop-concepts</module>
-        <module>03-java-8-to-11-features</module>
-        <module>04-java-17-modernization</module>
+        <module>java-fundamentals</module>
+        <module>oop</module>
+        <module>collections</module>
+        <module>functional-programming</module>
+        <module>concurrency</module>
+        <module>design-patterns</module>
+        <module>algorithms</module>
+        <module>jvm</module>
+        <module>java-versions</module>
     </modules>
 
     <dependencies>
