@@ -14,7 +14,7 @@ This repository uses a **Maven Multi-Module** structure to isolate different era
 | **02-oop-design** | Object Orientation | Polymorphism, Interfaces (Default/Static), Solid Principles. |
 | **03-modern-java** | Java 8 to 11 | Streams API, Lambdas, Optional, Var, HTTP Client. |
 | **04-java-17-plus** | Modernization | **Records**, **Sealed Classes**, Pattern Matching, Text Blocks. |
-| **05-java-21-features** | LTS Evolution | Virtual Threads (Project Loom), Sequenced Collections, Record Patterns. |
+
 ---
 
 ##  Tech Stack
