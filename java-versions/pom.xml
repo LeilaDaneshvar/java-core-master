@@ -4,6 +4,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <packaging>pom</packaging>
+
     <parent>
         <groupId>com.lemini</groupId>
         <artifactId>java-core-master</artifactId>
@@ -14,4 +16,11 @@
     <artifactId>java-versions</artifactId>
 
 
+    <modules>
+        <module>java8</module>
+        <module>java11</module>
+        <module>java17</module>
+        <module>java21</module>
+    </modules>
+    
 </project>
