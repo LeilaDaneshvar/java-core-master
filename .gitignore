@@ -1,0 +1,28 @@
+# Compiled Java classes
+*.class
+
+# Maven build directory
+target/
+
+# IDE specific files
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+
+# OS files
+.DS_Store
+
+# --- VS Code Specific ---
+.vscode/                 # General VS Code settings
+.project                 # Also used by VS Code Java extensions
+.classpath               # Also used by VS Code Java extensions
+.factorypath
+bin/                     # VS Code's default output folder for Java
+.settings/               # Shared with Eclipse/VS Code
+
+# --- Language Server Cache ---
+.history/                # Local history extension
+.apt_generated/
+.processor_state/
